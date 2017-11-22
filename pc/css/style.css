@@ -1,0 +1,379 @@
+@charset "utf-8";
+/*全局设置*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "microsoft yahei","微软雅黑";
+}
+
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*logo区域*/
+.logo{
+	width: 980px;
+	height: 40px;
+	padding: 15px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+/*logo图片*/
+.logo > a {
+	width: 174px;
+	height: 40px;
+	display: block;
+	background: url(../images/logo.png) no-repeat;
+	float: left;
+	text-indent: -9999px;
+}
+
+/*logo顶部的导航按钮*/
+.logo p{
+	float: right;
+	height: 40px;
+	
+}
+.logo p a{
+	width: 96px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	float: right;
+	color: #95d3ff;
+	margin-left: 25px;
+}
+
+.logo p a:hover {
+	background: url(../images/downloadHeader.png) no-repeat;
+}
+
+/*主内容区*/
+.wrapper {
+	width: 100%;
+	min-height: 1000px;
+	position: absolute;
+	margin-top: -70px;
+}
+/*banner*/
+.banner{
+	height: 540px;
+	background: url(../images/top_bg.jpg) no-repeat center;
+}
+
+.banner-center {
+	width: 980px;
+	height: 540px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.banner .banner-center .back-img1{
+	width: 490px;
+	height: 540px;
+	float: left;
+	position: relative;
+	background: url(../images/bg_top_cinema_0.png) no-repeat center;
+}
+
+.banner .banner-center .back-img2{
+	width: 490px;
+	height: 540px;
+	float: left;
+	position: relative;
+	top: 100px;
+	
+}
+.banner .back-img2_1{
+	width: 480px;
+	height: 200px;
+	position: relative;
+	background: url(../images/img.png) no-repeat;
+}
+
+.banner .back-img2 a{
+	display: block;
+	width: 255px;
+	height: 76px;
+	background: url(../images/img.png) no-repeat -14px -205px;
+	margin-top: 50px;
+	margin-left: 20px;
+	position: relative;
+}
+
+.banner .back-img2 span{
+	display: block;
+	width: 335px;
+	height: 44px;
+	background: url(../images/img.png) no-repeat -14px -287px;
+	margin-left: 20px;
+	position: relative;
+	
+}
+
+/*导航条区域*/
+.nav-wrap{
+	width: 100%;
+	height: 107px;
+	position: relative;
+	top: 0;
+	z-index: 999;
+	background: url(../images/nav_wrap_bg.png) repeat-x;
+}
+
+.nav-wrap .nav {
+	width: 980px;
+	height: 100px;
+	margin: 0 auto;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.nav-wrap .nav li{
+	width: 326px;
+	height: 100px;
+	float: left;
+	cursor: pointer;
+}
+.nav-wrap .nav li a {
+	display: block;
+	height: 100px;
+	line-height: 100px;
+	text-indent: -9999px;
+} 
+/*海量正版免费下daohang*/
+.intro{
+	background: url(../images/nav_wrap_icon.png) no-repeat 80px -38px;
+}
+.intro:hover{
+	background: url(../images/nav_wrap_icon.png) no-repeat 81px 40px;
+}
+.intro.active {
+	background: url(../images/nav_wrap_icon.png) no-repeat 81px 40px;
+}
+
+/*无需苹果账号*/
+
+.usage{
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	background: url(../images/nav_wrap_icon.png) no-repeat 80px -194px;
+}
+.usage:hover{
+	background: url(../images/nav_wrap_icon.png) no-repeat 80px -118px;
+}
+.usage.active{
+	background: url(../images/nav_wrap_icon.png) no-repeat 80px -118px;
+}
+/*手机瘦身*/
+.choise {
+	background: url(../images/nav_wrap_icon.png) no-repeat 80px -353px;
+}
+.choise:hover{
+	background: url(../images/nav_wrap_icon.png) no-repeat 81px -275px;
+}
+.choise.active{
+	background: url(../images/nav_wrap_icon.png) no-repeat 81px -275px;
+}
+
+/*海量正版免费下*/
+.post-intro{
+	height: 500px;
+	background: #f6f8fa;
+}
+.post-intro .download{
+	width: 980px;
+	height: 355px;
+	margin: 0 auto;
+	padding-top: 145px;
+	background: url(../images/free.jpg) no-repeat bottom right;
+}
+.post-intro .download h1{
+	height: 45px;
+	background: url(../images/img.png) no-repeat 1px -340px;
+	text-indent: -99999px;
+}
+.post-intro .download p{
+	line-height: 200%;
+	font-size: 20px;
+	color: #414b54;
+	padding: 40px 0 0 10px;
+}
+/*无需苹果账号区域*/
+.post-usage{
+	height: 510px;
+	background: #f0f2f6;
+}
+.post-usage .jianbian{
+	height: 10px;
+	background: url(../images/jianbian_bg.jpg) no-repeat center;
+}
+.post-usage .non-pwd{
+	width: 980px;
+	height: 325px;
+	padding-top: 175px;
+	margin: 0 auto;
+	background: url(../images/none_pwd.jpg) no-repeat bottom left;
+}
+.post-usage .non-pwd h1{
+	width: 440px;
+	height: 45px;
+	background: url(../images/img.png) no-repeat 20px -391px;
+	float: right;
+	text-indent: -9999px;
+}
+
+.post-usage .non-pwd p{
+	line-height: 200%;
+	font-size: 20px;
+	color: #414b54;
+	padding: 40px 0 0 10px;
+	clear: both;
+	float: right;
+}
+
+/*瘦身区域*/
+.choiceness{
+	height: 500px;
+	width: 100%;
+	background: #f6faff;
+}
+.choiceness .border{
+	border-top: 1px solid #ccc;
+}
+
+.choiceness .app_thin {
+	width: 980px;
+	height: 355px;
+	padding-top: 145px;
+	margin: 0 auto;
+	background: url(../images/thin.jpg) no-repeat bottom right ;
+}
+
+.choiceness .app_thin h1{
+	height: 45px;
+	background: url(../images/img.png) no-repeat 1px -438px;
+	text-indent: -9999px;
+}
+.choiceness .app_thin p {
+	line-height: 200%;
+	font-size: 20px;
+	color: #414b54;
+	padding: 40px 0 0 10px;
+	margin-left: -10px;
+}
+/*免费安装正版应用区域*/
+.free-app{
+	padding: 75px 0 ;
+	background: url(../images/jianbian_bg.jpg) no-repeat center top #f0f2f6;
+}
+
+.free-app h1{
+	width: 440px;
+	height: 22px;
+	margin: 0 auto;
+	text-indent: -999999px;
+	background: url(../images/img.png) no-repeat 1px -488px;
+}
+
+.free-app .free-app1{
+	width: 980px;
+	padding-top: 30px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.free-app .free-app1 ul{
+	width: 1012px;
+	overflow: hidden;
+}
+.free-app .free-app1 ul li {
+	width: 305px;
+	height: 167px;
+	margin-right: 32px;
+	margin-bottom: 32px;
+	float: left;
+	background: url(../images/free_app_bg.png) no-repeat;
+}
+.free-app .free-app1 .free_app_bg{
+	width: 275px;
+	height: 150px;
+	padding: 17px 15px 0 15px;
+}
+.free-app .free-app1 .free_app_icon{
+	width: 75px;
+	width: 75px;
+	float: left;
+	padding: 0 5px;
+}
+
+.free-app .free-app1 .free_app_download{
+	width: 180px;
+	padding-left: 10px;
+	float: right;
+}
+.free-app .free-app1 .free_app_download h2{
+	font-size: 14px;
+	line-height: 24px;
+	color: #676974;
+	font-weight: none;
+}
+.free-app .free-app1 .free_app_download .free_app_num{
+	font-size: 12px;
+	height: 24px;
+	line-height: 12px;
+	color: #c1c3c7;
+	background: url(../images/img.png) no-repeat -344px -240px;
+	text-indent: 20px;
+}
+.free-app .free-app1 .free_app_download p {
+	font-size: 12px;
+	color: #989ba0;
+	line-height: 150%;
+	max-height: 60px;
+	overflow: hidden;
+}
+.free-app .free-app1 .free_app_download a {
+	display: block;
+	width: 115px;
+	height: 30px;
+	line-height: 30px;
+	background: #6bce5a;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	float: right;
+}
+
+/*底部*/
+.footer{
+	background: #f6f8fa;
+	font-size: 12px;
+	line-height: 200%;
+	text-align: center;
+	padding: 20px;
+	color: #989ba0;
+}
+
+/*回到顶部按钮*/
+#topControl{
+	position: fixed;
+	right: 5px;
+	bottom: 80px;
+	cursor:pointer;
+	display: none;
+}
+#topControl img{
+	display: block;
+}
+/*fixed*/
+.fix {
+	position: fixed!important;
+}
